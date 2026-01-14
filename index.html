@@ -1,10 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="ta">
 <head>
+  <meta charset="UTF-8">
   <title>Puthiyaparvai News</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans Tamil', sans-serif;
+      background: #f1f5f9;
+    }
+
+    header {
+      background: #0f172a;
+      color: #fff;
+      padding: 15px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav {
+      background: #1e293b;
+      padding: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      margin-right: 15px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .breaking {
+      background: #dc2626;
+      color: white;
+      padding: 8px;
+      font-weight: bold;
+    }
+
+    .container {
+      display: flex;
+      gap: 15px;
+      padding: 15px;
+    }
+
+    .main {
+      flex: 3;
+      background: white;
+      padding: 15px;
+      border-radius: 6px;
+    }
+
+    .side {
+      flex: 1;
+      background: white;
+      padding: 15px;
+      border-radius: 6px;
+    }
+
+    footer {
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Puthiyaparvai News</h1>
-  <p>Your website is now live 🚀</p>
+
+<header>
+  📰 Puthiyaparvai News
+</header>
+
+<nav>
+  <a href="#">முகப்பு</a>
+  <a href="#">தமிழகம்</a>
+  <a href="#">அரசியல்</a>
+  <a href="#">இந்தியா</a>
+  <a href="#">உலகம்</a>
+  <a href="#">சினிமா</a>
+</nav>
+
+<div class="breaking">
+  🔴 BREAKING: தமிழகத்தில் இன்று முக்கிய அறிவிப்பு
+</div>
+
+<div class="container">
+  <div class="main">
+    <h2>முக்கிய செய்தி தலைப்பு</h2>
+    <p>இந்த இடத்தில் முக்கிய செய்தியின் சுருக்கம் வரும்...</p>
+  </div>
+
+  <div class="side">
+    <h3>Latest News</h3>
+    <ul>
+      <li>செய்தி ஒன்று</li>
+      <li>செய்தி இரண்டு</li>
+      <li>செய்தி மூன்று</li>
+    </ul>
+  </div>
+</div>
+
+<footer>
+  © 2026 Puthiyaparvai News
+</footer>
+
 </body>
 </html>
