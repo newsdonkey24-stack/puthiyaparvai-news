@@ -72,11 +72,38 @@
       margin-top: 20px;
     }
 
-    @media (max-width: 768px) {
-      .site-header {
-        font-size:22px;
-        padding:14px 16px;
-      }
+  @media (max-width: 768px) {
+
+  .site-header {
+    font-size: 22px;
+    padding: 14px 16px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .news-cards {
+    grid-template-columns: repeat(2, 1fr); /* mobile: 2 cards */
+    gap: 12px;
+    padding: 10px;
+  }
+
+  .news-card h3 {
+    font-size: 16px;
+  }
+
+  .news-card p {
+    font-size: 14px;
+  }
+
+  .news-card img {
+    height: 140px;
+    object-fit: cover;
+  }
+
+}
+
     }
  /* NEWS CARDS GRID */
 .news-cards {
@@ -153,7 +180,7 @@
   <a href="news1.html" class="news-card-link">
   <div class="news-card">
     <span class="badge tamilnadu">தமிழகம்</span>
-    <img src="https://via.placeholder.com/400x220.png?text=News" alt="செய்தி படம்">
+    <img src="https://picsum.photos/400x220.png?text=News" alt="செய்தி படம்">
     <div class="card-content">
       <h3>முக்கிய செய்தி 1</h3>
       <p>இந்த இடத்தில் செய்தியின் சுருக்கம் வரும்...</p>
@@ -162,7 +189,7 @@
 </a>
 <a href="news2.html" class="news-card-link">
   <div class="news-card">
-    <img src="https://via.placeholder.com/400x220.png?text=News" alt="செய்தி படம்">
+    <img src="https://picsum.photos/400x220.png?text=News" alt="செய்தி படம்">
     <div class="card-content">
       <h3>முக்கிய செய்தி 2</h3>
       <p>செய்தியின் சுருக்கம் இங்கே...</p>
@@ -171,7 +198,7 @@
 </a>
   <a href="news3.html" class="news-card-link">
   <div class="news-card">
-    <img src="https://via.placeholder.com/400x220.png?text=News" alt="செய்தி படம்" loading="lazy">
+    <img src="https://picsum.photos/400x220.png?text=News" alt="செய்தி படம்" loading="lazy">
     <div class="card-content">
       <h3>முக்கிய செய்தி 3</h3>
       <p>செய்தியின் சுருக்கம் இங்கே...</p>
