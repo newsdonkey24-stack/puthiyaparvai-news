@@ -14,13 +14,15 @@
       background: #f1f5f9;
     }
 
-    header {
-      background: #0f172a;
-      color: #fff;
-      padding: 15px;
-      font-size: 24px;
-      font-weight: bold;
-    }
+    .site-header {
+  background: linear-gradient(90deg, #0f172a, #1e293b);
+  color: #ffffff;
+  padding: 18px 24px;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
 
     nav {
       background: #1e293b;
@@ -70,8 +72,9 @@
     }
 
     @media (max-width: 768px) {
-      .container {
-        flex-direction: column;
+      .site-header {
+        font-size:22px;
+        padding:14px 16px;
       }
     }
   </style>
@@ -79,7 +82,7 @@
 
 <body>
 
-<header>
+<header class="site-header">
   📰 புதியபார்வை செய்திகள் 
 </header>
 
