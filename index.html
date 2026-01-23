@@ -186,6 +186,15 @@
 
 /* Mobile */
 @media (max-width: 600px) {
+  content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest-news {
+    order: -1;
+    margin-bottom: 20px;
+  }
   .news-cards {
     grid-template-columns: 1fr;
   }
