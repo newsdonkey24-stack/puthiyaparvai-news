@@ -30,10 +30,11 @@ body {
 }
 
 .breaking {
-  background: #ffeaea;
-  color: #c40000;
-  padding: 10px;
-  font-weight: 600;
+  background: #c40000;   /* strong red */
+  color: #ffffff;        /* white text */
+  padding: 12px;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .main-heading {
