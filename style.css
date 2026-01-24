@@ -39,7 +39,11 @@ body {
 
 .main-heading {
   text-align: center;
-  margin: 20px;
+  margin: 30px 20px;
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #0f172a;
 }
 
 .container {
