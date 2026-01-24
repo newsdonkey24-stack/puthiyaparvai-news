@@ -144,3 +144,11 @@ footer {
     font-size: 15px;
   }
 }
+/* News detail paragraph – FIX */
+.news-detail p {
+  display: block;
+  color: #222;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
