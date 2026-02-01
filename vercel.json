@@ -1,5 +1,10 @@
 {
+  "cleanUrls": false,
+  "trailingSlash": false,
   "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+    {
+      "src": "^/news/(.*).html$",
+      "dest": "/news/$1.html"
+    }
   ]
 }
